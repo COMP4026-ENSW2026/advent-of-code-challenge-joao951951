@@ -22,8 +22,11 @@ for i in data :
         aux += num
     else:
         if(aux > elv1):
+            elv3 = elv2
+            elv2 = elv1
             elv1 = aux
         elif(aux > elv2):
+            elv3 = elv2
             elv2 = aux
         elif(aux > elv3):
             elv3 = aux
