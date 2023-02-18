@@ -14,8 +14,7 @@ sumPairs = 0
 for i in data:
     i, j = i.split(",")
     i = [int(x) for x in i.split("-")]
-    j = [int(x) for x in j.split("-")]   
+    j = [int(x) for x in j.split("-")]
     if i[0] <= j[0] and i[1] >= j[1] or i[0] >= j[0] and i[1] <= j[1]:
         sumPairs+=1
-
 print(sumPairs)
