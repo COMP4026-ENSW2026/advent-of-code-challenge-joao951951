@@ -9,6 +9,8 @@ file = file_location.open()
 data, moves = (i.splitlines() for i in file.read().strip('\n').split('\n\n'))
 print(data, moves)
 
+##IDK how i can solve this
+
 # for i in data:
 #     for char in i:
 #         print(char)
