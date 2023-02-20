@@ -1,5 +1,4 @@
 from pathlib import Path
-import string 
 
 ##setando o path do .in
 script_location = Path(__file__).absolute().parent
